@@ -220,10 +220,27 @@ input[type=submit] {
 
 /*add media screen tags here*/
 
-@media screen and (max-width: 980px){}
+@media screen and (max-width: 980px){
+  nav{
+    text-align: center;
+    padding-right: 30px;
+  }
+
+  .auth-image{
+    float: left;
+  }
+}
 @media screen and (max-width: 768px){
 
-  
+  .auth-image{
+    float: left;
+  }
+
+  nav{
+    text-align: center;
+    padding-right: 30px;
+  }
+
 }
 @media screen and (max-width: 640px){
 
